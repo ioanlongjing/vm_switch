@@ -9,3 +9,4 @@
 由於長時間開啟程式時, 似乎會造成 vm 無回應 (似乎是 crash)
 故將 suspend 用 pause 取代, start 用 unpause 取代
 
+新增 vmflag 功能, 讓 script 不會一直去 pause 
