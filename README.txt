@@ -9,7 +9,7 @@
 由於長時間開啟程式時, 似乎會造成 vm 無回應 (似乎是 crash)
 故將 suspend 用 pause 取代, start 用 unpause 取代
 
-新增 vmflag 功能, 讓 script 不會一直去 pause 
+新增 vmflag 功能, 讓 script 在非工作期間, 不會一直去 pause 
 
 PS 1 : vmrun 似乎無法在一隻 script 內同時對兩隻 vm 做控制
 PS 2 : 用 windows 內建排程，有時會只開一支程式
